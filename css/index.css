@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -65,12 +66,15 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.header-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
 .container {
     width: 800px;
     margin: 0 auto;
-}
-
+    }
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,7 +105,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +114,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .bottom-content {
@@ -143,4 +148,39 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
+.teal{
+    background-color: teal;
+}
+.gold{
+background-color: gold;
+}
+.cadetblue{
+    background-color: cadetblue;
+}
+.coral{
+    background-color: coral;
+}
+.crimson{
+    background-color: crimson;
+}
+.forestgreen{
+    background-color: forestgreen;
+}
+.darkorchid{
+    background-color: darkorchid;
+}
+.hotpink{
+    background-color: hotpink;
+}
+.indigo{
+    background-color: indigo;
+}
+.dodgerblue{
+    background-color: dodgerblue;
 }
