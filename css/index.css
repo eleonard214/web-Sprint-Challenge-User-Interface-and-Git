@@ -94,14 +94,13 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes {
+.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +109,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .bottom-content {
@@ -145,56 +145,72 @@ footer nav a {
     text-decoration: none;
 }
 
-/* New code added by me */
 
-.container1 {
-    display:flex;
-    justify-content: center;
-}
-
-.boxes {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .teal {
     background: teal;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
 }
 .gold {
     background: gold;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
 }
 .cadetblue {
     background: cadetblue;
+    width: 100px;
+    height: 100px;
+    margin:17px;
 }
 .coral {
     background: coral;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
 }
 .forestgreen {
     background: forestgreen;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
 }
 .darkorchid {
     background: darkorchid;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
 }
 .hotpink {
     background: hotpink;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
 }
 .dodgerblue {
     background: dodgerblue;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
 }
 .crimson {
     background: crimson;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
 }
 .indigo {
     background: indigo;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
 }
 .learn {
     border: 2px solid black;
-}
+    width: 100px;
+    height: 100px;
+  }
 .main-container {
     
     display: flex;
@@ -226,12 +242,14 @@ footer nav a {
     animation-duration: 5000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-}button:hover{
+}
+button:hover{
     animation-name: spin;
     animation-duration: 5000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+
 @keyframes spin {
     from {
         transform: rotate(0deg);
@@ -239,11 +257,17 @@ footer nav a {
     to {
         transform: rotate(360deg);
     }
+   
 .main-container {
     display: flex;
     flex-flow: row wrap;
+    width: 800px;
 }
 .strategy {
+    width: 10%;
     margin:5px;
     padding:5px;
+}
+.Work {
+   width: 10%; 
 }
