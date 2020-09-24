@@ -94,7 +94,6 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +109,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .bottom-content {
@@ -143,4 +143,131 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.teal {
+    background: teal;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
+}
+.gold {
+    background: gold;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
+}
+.cadetblue {
+    background: cadetblue;
+    width: 100px;
+    height: 100px;
+    margin:17px;
+}
+.coral {
+    background: coral;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
+}
+.forestgreen {
+    background: forestgreen;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
+}
+.darkorchid {
+    background: darkorchid;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
+}
+.hotpink {
+    background: hotpink;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
+}
+.dodgerblue {
+    background: dodgerblue;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
+}
+.crimson {
+    background: crimson;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
+}
+.indigo {
+    background: indigo;
+    width: 100px;
+    height: 100px;
+    margin: 17px;
+}
+.learn {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+  }
+.main-container {
+    
+    display: flex;
+    flex-flow: row wrap;
+}
+.strategy {
+    border-bottom: 2px dashed black;
+    margin: 15px;
+}
+.Work {
+    border-bottom: 2px dashed black;
+    margin: 15px;
+}
+.Places {
+    border-bottom: 2px dashed black;
+    margin: 15px;
+}
+.collab {
+    border-bottom: 2px dashed black;
+    margin:15px;
+    padding:15px;
+}
+.invite {
+    margin:15px;
+    padding:15px;
+}
+#Lambdaimg:hover {
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+button:hover{
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+   
+.main-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 800px;
+}
+.strategy {
+    width: 10%;
+    margin:5px;
+    padding:5px;
+}
+.Work {
+   width: 10%; 
 }
